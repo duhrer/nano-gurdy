@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.nano-gurdy {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 100%;
+}
+
+.controlRack > div {
+    display: flex;
+    column-gap: 5rem;
+    flex-direction: row;
+    justify-items: stretch;
+}
+
+.dialLabel {
+    text-align: center;
+}
